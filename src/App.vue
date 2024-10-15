@@ -16,3 +16,12 @@ onMounted(() => {
 });
 </script>
 
+<style scoped>
+.container {
+  background-image: url('../DALL·E\ 2024-10-15\ 15.39.50\ -\ A\ subtle\ and\ elegant\ background\ texture\ that\ works\ well\ with\ a\ modern\ e-commerce\ website.\ The\ design\ should\ feature\ a\ light\ grey\ or\ pastel\ color\ gradi.webp');
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+</style>

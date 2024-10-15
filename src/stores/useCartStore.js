@@ -9,7 +9,7 @@ export const useCartStore = defineStore("cart", {
       {
         id: 1,
         name: "Iphone 14",
-        price: 800,
+        price: 4800,
         description:
           "O novo iPhone 14 vem com tecnologia de ponta, câmera de alta resolução, desempenho ultrarrápido e design elegante. Um smartphone para quem busca o melhor em qualidade e inovação.",
         image: "https://imgs.casasbahia.com.br/55048759/1g.jpg",
@@ -17,7 +17,7 @@ export const useCartStore = defineStore("cart", {
       {
         id: 2,
         name: "Samsung Galaxy 5s",
-        price: 400,
+        price: 1400,
         description:
           "Com o Samsung Galaxy 5s, você terá desempenho robusto, tela vibrante e uma experiência suave para suas atividades diárias. Ideal para quem busca performance e custo-benefício.",
         image:
@@ -26,7 +26,7 @@ export const useCartStore = defineStore("cart", {
       {
         id: 3,
         name: 'Smart TV Philco 40"',
-        price: 1200,
+        price: 2200,
         description:
           'Assista seus filmes e séries favoritos em alta definição com a Smart TV Philco de 40". Com Wi-Fi integrado e diversas conexões, você terá acesso a conteúdos de streaming com qualidade Full HD.',
         image:
@@ -35,16 +35,16 @@ export const useCartStore = defineStore("cart", {
       {
         id: 4,
         name: "SmartWatch Fitness",
-        price: 200,
+        price: 350,
         description:
           "Monitore suas atividades físicas, batimentos cardíacos e notificações diretamente no pulso com o SmartWatch Fitness. Ideal para quem quer manter o controle de sua saúde e produtividade.",
         image:
-          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKODD4LTCYKpJTC5ET6TF2_F25yDHGJ6A-xg&s",
+          "https://i.zst.com.br/thumbs/12/c/17/-1082052733.jpg",
       },
       {
         id: 5,
         name: "Kit Teclado e Mouse Gamer Razer",
-        price: 350,
+        price: 650,
         description:
           "Domine os seus jogos com o Kit Gamer, composto por teclado mecânico retroiluminado e mouse com DPI ajustável. Conforto e precisão garantidos para suas sessões de jogos intensas.",
         image:
@@ -53,7 +53,7 @@ export const useCartStore = defineStore("cart", {
       {
         id: 6,
         name: "Notebook i7 Samsung",
-        price: 2500,
+        price: 7500,
         description:
           "Potente e versátil, o notebook com processador Intel Core i7 é perfeito para multitarefas, rodar softwares pesados e proporcionar alto desempenho, seja no trabalho ou no entretenimento.",
         image:
