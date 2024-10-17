@@ -1,5 +1,6 @@
 <template>
   <CardReview class="border rounded p-3 mb-3 shadow-sm">
+    <!-- Editar e Deletar
     <div class="d-flex justify-content-end">
       <button class="btn p-0 m-0 me-2 border-primary border-2">
         <i class="bi bi-pencil" @click="store.editReview(item)"></i>
@@ -8,7 +9,7 @@
         <i class="bi bi-x" @click="store.deleteReview(item)"></i>
       </button>
     </div>
-
+          -->
     <div class="star-display my-2">
       <i
         v-for="n in item.rating"
@@ -24,9 +25,9 @@
 </template>
 
 <script setup>
-import { useReviewStore } from "@/stores/reviews";
+//import { useReviewStore } from "@/stores/reviews";
 
-const store = useReviewStore();
+//const store = useReviewStore();
 
 import CardReview from "../shared/cardReview.vue";
 defineProps({
